@@ -1,0 +1,7 @@
+***App Purpose***
+
+We use this app to send some message
+to my host hook_sender file & this file send message to endpoints
+then endpoints get message and save it.
+
+Now we have same **message/content/file/etc** on several **endpoint/location/website/directory** .
