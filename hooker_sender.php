@@ -2,7 +2,7 @@
 
 $secret = "2453536";//same secret as send_message.php file
 $in = file_get_contents("php://input");
-fwrite(fopen("recive_input.txt"),$in);
+fwrite(fopen("recive_input.txt","w"),$in);
 $decoded = json_decode($in);
 //var_dump($decoded);
 $get_secret = $decoded->secret;
